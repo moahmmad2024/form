@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(247, 127 , 0 , 0.5), #FCBF49), url(img/karsten-winegeart-_du_y91pXuc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+
+.form-box{
+    width: 500px;
+    height: auto;
+    padding: 20px 30px;
+    margin: 100px auto;
+    background-color: #EAE2B7;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgb(255, 140, 0) 0px 13px 27px -5px, rgb(255, 213, 107) 0px 8px 16px -8px;
+    
+}
+
+.title-box {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: #003049;
+    font-size: 40px;
+}
+
+hr{
+    width: 300px;
+    height: auto;
+    margin: 20px auto;
+    border: 1px solid #003049;
+}
+
+form{
+    width: 300px;
+    margin: 0 auto;
+    background-color: #F77F00;
+    padding: 20px 30px;
+    border-radius: 10px;
+   
+}
+form input{
+    width: 100%;
+    height: 28px;
+    margin: 10px 0;
+    padding: 0 5px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: 0.5s;
+}
+form input:hover{
+    transform: translateY(-5px); 
+    background-color: rgb(229, 229, 229);
+}
+
+.submit{
+    width: 150px;
+    height: 40px;
+    margin: 20px 0;
+    background-color: #EAE2B7;
+    border-radius: 10px;
+    border: 1px solid #003049;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: 0.4s;
+}
+
+.submit:hover{
+    background-color: #003049;
+    color: #EAE2B7;
+}
+
+.info-box{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.info h1{
+    font-size: 60px;
+    color: #003049;
+    margin-bottom: 20px;
+    
+}
+
+.info p{
+    font-family: sans-serif;
+    color: #003049;
+    font-size: 20px;
+    padding: 0 40px;
+    font-style: italic;
+    line-height:25px
+   
+    
+}
